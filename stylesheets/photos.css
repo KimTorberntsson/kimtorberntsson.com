@@ -1,0 +1,26 @@
+header {
+	background: url("../images/photos-background.jpg") fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#photos {
+	z-index: -1;
+	position: relative;
+	background: white;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#photos a {
+	display: inline-block;
+}
+
+.thumb {
+	height: 150px;
+	margin: 0.1em;
+}
