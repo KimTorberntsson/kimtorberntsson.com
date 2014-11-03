@@ -1,8 +1,6 @@
 header {
-	background: url("../images/photos-background.jpg") fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background: url("../images/photos-background.jpg");
+	background-attachment: scroll;
 	background-size: cover;
 }
 

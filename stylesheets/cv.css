@@ -1,7 +1,5 @@
 header {
-	background: url("../images/cv-background.jpg") fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background: url("../images/cv-background.jpg");
+	background-attachment: scroll;
 	background-size: cover;
 }
