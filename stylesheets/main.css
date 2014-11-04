@@ -10,7 +10,19 @@ nav {
 }
 
 nav ul li {
-	display: inline;
+	display: inline-block;
+	width: 5em;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	opacity: 0.5;
+}
+
+nav ul li a:hover {
+	opacity: 0.8;
 }
 
 main {
@@ -41,12 +53,6 @@ footer {
 
 .navicon {
 	width: 3em;
-	margin-right: 1em;
-	opacity: 0.5;
-}
-
-.navicon:hover {
-	opacity: 0.8;
 }
 
 #active {
